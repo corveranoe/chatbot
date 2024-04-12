@@ -1,0 +1,34 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos dias", "Buenas tardes"],
+            "responses": ["Hola!", "Buenas tardes, ¿Como puedo ayudarte hoy?", "Buenos dias! ¿Que necesitas?"]
+        },
+        {
+            "tag": "saludo_2",
+            "patterns": ["Que tal?", "Como estas?", "Como estas", "Como te va", "Como te va?"],
+            "responses": ["Bien, en que puedo ayudarte?", "Todo muy bien, en que puedo ayudarte?", "Muy bien y tu?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adios", "Hasta luego", "Nos vemos"],
+            "responses": ["Adios! espero verte pronto", "Hasta luego! gracias por visitarme", "Nos vemos! vuelve pronto!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["Gracias", "Muchas gracias", "Gracias por la ayuda", "Gracias por la informacion"],
+            "responses": ["De nada, estoy aqui para ayudarte", "No hay de que", "Fue un placer ayudarte"]
+        },
+        {
+            "tag": "compra",
+            "patterns": ["Quiero comprar algo", "Busco un producto", "Quiero hacer un pedido"],
+            "responses": ["Genial! que tipo de producto estas buscando?", "Por supuesto, puedes darme mas detalles sobre el producto que buscas", "Perfecto, puedes empezar a hacer tu pedido y con gusto te lo enviamos"]
+        },
+        {
+            "tag": "actividad",
+            "patterns": ["Qué estás haciendo", "En qué estás trabajando", "Qué haces"],
+            "responses": ["Actualmente estoy ayudando a los usuarios en esta plataforma. ¿Hay algo más en lo que pueda ayudarte?", "Estoy aquí para responder tus preguntas y ayudarte en lo que necesites.", "Estoy programado para proporcionar asistencia y responder preguntas."]
+        }
+    ]
+}
